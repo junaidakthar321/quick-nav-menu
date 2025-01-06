@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  
+</head>
+
+<body class="site-body">
+  <header>
+    <div class="container">
+      <a href="#" class="logo"><img src="images/style-size/logo.png" alt=""></a>
+      <div class="gnc">
+        <nav class="quick-nav"  id="">
+          <button class="menu-btn"><span class="default-text">Menu</span></button>
+          <div class="inner-nav">
+            <div class="bg">
+           
+            </div>
+            <div class="overflow">
+              <ul class="inner-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="main-menu">
+    <ul>
+      <li id="vertical-size " class="active">Size</li>
+      <li id="style-content ">Style</li>
+      <li id="animations-sel">Animations</li>
+      <li id="embed-code"> embed Code</li>
+    </ul>
+  </div>
+  <section class="sec-vertical-size style-size active">
+    
+
+    <div class="set-height-wrapper">
+      <!-- <div id="progress-bar-container">
+        <div id="progress-bar">
+          <div class="drag-arrow"></div>
+        </div>
+      </div> -->
+      <span class="ht-label">Custom Height</span>
+      <p id="heightError"></p>
+      <div class="np-set-height">
+      <div class="np-input-wrap" id="np-input-set">
+        <input id="get-height" type="number">
+          <div class="np-select">
+            <span>px</span>
+            <ul id="np-items">
+              <li data-value="px">px</li>
+              <li data-value="rem">rem</li>
+              <li data-value="vh">vh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <button id="set-height">Set Size</button>
+    </div>
+    </div>
+    <div class="container">
+      <div class="inner-flex">
+        <h2>Style Size</h2>
+        <div class="options" id="style-size">
+          <div class="card-option" data-id="defaultHeight">
+            <div class="cop-img">
+              <img src="images/style-size/default-height.png" alt="">
+            </div>
+            <span>Default size</span>
+          </div>
+          <div class="card-option" data-id="customHeight">
+            <div class="cop-img">
+              <img src="images/style-size/custom-height.png" alt="">
+            </div>
+            <span>Custom size</span>
+          </div>
+          <div class="card-option" data-id="fullScreenHeight">
+            <div class="cop-img">
+              <img src="images/style-size/fullvh.png" alt="">
+            </div>
+            <span>Full Screen size</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec-style-content style-size">
+    <div class="container">
+      <div class="inner-flex">
+        <form>
+          <div class="col btn-content-wrap">
+            <h2>Add Button Text</h2>
+            <div class="form-group ">
+              <label for="initialText">initial text</label>
+              <input type="text" id="initialText" placeholder="Menu">
+            </div>
+            <div class="form-group">
+              <label for="activeState">active state</label>
+              <input type="text" id="activeState" placeholder="Close" />
+            </div>
+            <div class="form-group set-font-size">
+              <label>Set Font Size</label>
+              <div id="progress-font-container">
+                <div id="progress-font" data-value="0">
+                  <div class="drag-arrow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Add Button icon</h2>
+            <div class="hamburger-icon-wraper">
+              <div class="hb-icon hb-icon-i1">
+              <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                <path
+                      class="line middle"
+                      d="m 30,50 h 40" />
+                <path
+                      class="line bottom"
+                      d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+              </svg>
+            </div>
+            <div class="hb-icon hb-icon-i2">
+              <svg class="ham ham2" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 70,33 h -40 c -6.5909,0 -7.763966,-4.501509 -7.763966,-7.511428 0,-4.721448 3.376452,-9.583771 13.876919,-9.583771 14.786182,0 11.409257,14.896182 9.596449,21.970818 -1.812808,7.074636 -15.709402,12.124381 -15.709402,12.124381" />
+                <path
+                      class="line middle"
+                      d="m 30,50 h 40" />
+                <path
+                      class="line bottom"
+                      d="m 70,67 h -40 c -6.5909,0 -7.763966,4.501509 -7.763966,7.511428 0,4.721448 3.376452,9.583771 13.876919,9.583771 14.786182,0 11.409257,-14.896182 9.596449,-21.970818 -1.812808,-7.074636 -15.709402,-12.124381 -15.709402,-12.124381" />
+              </svg>
+            </div>
+              <div class="hb-icon hb-icon-i3">
+              <svg class="ham ham3" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 70,33 h -40 c -11.092231,0 11.883874,13.496726 -3.420361,12.956839 -0.962502,-2.089471 -2.222071,-3.282996 -4.545687,-3.282996 -2.323616,0 -5.113897,2.622752 -5.113897,7.071068 0,4.448316 2.080609,7.007933 5.555839,7.007933 2.401943,0 2.96769,-1.283974 4.166879,-3.282995 2.209342,0.273823 4.031294,1.642466 5.857227,-0.252538 v -13.005715 16.288404 h 7.653568" />
+                <path
+                      class="line middle"
+                      d="m 70,50 h -40 c -5.6862,0 -8.534259,5.373483 -8.534259,11.551069 0,7.187738 3.499166,10.922274 13.131984,10.922274 11.021777,0 7.022787,-15.773343 15.531095,-15.773343 3.268142,0 5.177031,-2.159429 5.177031,-6.7 0,-4.540571 -1.766442,-7.33533 -5.087851,-7.326157 -3.321409,0.0092 -5.771288,2.789632 -5.771288,7.326157 0,4.536525 2.478983,6.805271 5.771288,6.7" />
+                <path
+                      class="line bottom"
+                      d="m 70,67 h -40 c 0,0 -3.680675,0.737051 -3.660714,-3.517857 0.02541,-5.415597 3.391687,-10.357143 10.982142,-10.357143 4.048418,0 17.88928,0.178572 23.482143,0.178572 0,2.563604 2.451177,3.403635 4.642857,3.392857 2.19168,-0.01078 4.373905,-1.369814 4.375,-3.392857 0.0011,-2.023043 -1.924401,-2.589191 -4.553571,-4.107143 -2.62917,-1.517952 -4.196429,-1.799562 -4.196429,-3.660714 0,-1.861153 2.442181,-3.118811 4.196429,-3.035715 1.754248,0.0831 4.375,0.890841 4.375,3.125 2.628634,0 6.160714,0.267857 6.160714,0.267857 l -0.178571,-2.946428 10.178571,0 -10.178571,0 v 6.696428 l 8.928571,0 -8.928571,0 v 7.142858 l 10.178571,0 -10.178571,0" />
+              </svg>
+            </div>
+              <div class="hb-icon hb-icon-i4">
+              <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path
+                      class="line middle"
+                      d="m 70,50 h -40" />
+                <path
+                      class="line bottom"
+                      d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+              </svg>
+            </div>
+              <div class="hb-icon hb-icon-i5">
+              <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
+                <path
+                      class="line middle"
+                      d="m 70,50 h -40" />
+                <path
+                      class="line bottom"
+                      d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
+              </svg>
+            </div>
+              <div class="hb-icon hb-icon-i6">
+              <svg class="ham ham6" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272" />
+                <path
+                      class="line middle"
+                      d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272" />
+                <path
+                      class="line bottom"
+                      d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272" />
+              </svg>
+            </div>
+              <div class="hb-icon hb-icon-i7">
+              <svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
+                <path
+                      class="line middle"
+                      d="m 70,50 h -40" />
+                <path
+                      class="line bottom"
+                      d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" />
+              </svg>
+            </div>
+              <div class="hb-icon hb-icon-i8">
+              <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" >
+                <path
+                      class="line top"
+                      d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                <path
+                      class="line middle"
+                      d="m 30,50 h 40" />
+                <path
+                      class="line bottom"
+                      d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+              </svg>
+            </div>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Add Colors</h2>
+            <div class="color-col colors-selec">
+              <div class="form-group ">
+                <label for="btnColor"> button color</label>
+                <input id="btnColor" type="color" value="#999999" />
+              </div>
+              <div class="form-group">
+                <label for="hoverColor"> hover color</label>
+                <input id="hoverColor" type="color" value="#ffffff" />
+              </div>
+              <div class="form-group">
+                <label for="menuColor">menu bg color</label>
+                <input id="menuColor" type="color" value="#2b2b2b" />
+              </div>
+              <div class="form-group ">
+                <label for="textColor"> Text color</label>
+                <input id="textColor" type="color" value="#000000" />
+              </div>
+              <div class="form-group">
+                <label for="textHoverColor"> text hover </label>
+                <input id="textHoverColor" type="color" value="#000000" />
+              </div>
+              <div class="form-group">
+                <label for="menuItemColor">menu item color</label>
+                <input id="menuItemColor" type="color" value="#ffffff" />
+              </div>
+              <div class="form-group ">
+                <label for="activeTextColor"> Active text </label>
+                <input id="activeTextColor" type="color" value="#545454" />
+              </div>
+              <div class="form-group">
+                <label for="activeHoverColor">Active hover </label>
+                <input id="activeHoverColor" type="color" value="#ffffff" />
+              </div>
+              <div class="form-group mihc ">
+                <label for="menuItemHoverColor">Menu item hover </label>
+                <input id="menuItemHoverColor" type="color" value="#545454" />
+              </div>
+            </div>
+          </div>
+        <div class="save-btn-wrap">
+          <div class="set-btn" id="submit-value">Update</div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="sec-animations-sel style-size  ">
+    <div class="container">
+      <div class="inner-flex">
+        <h2>Animations</h2>
+        <ul id="animation-tabs" class="tabs-bar">
+          <li id="fade-animation">Fade Animations</li>
+          <li id="slide-animation">Slide Animations</li>
+          <li id="special-animation">Special Animations</li>
+        </ul>
+        <div class="tab-content tab-fade-animation">
+          <div class="options" id="fade-animation-option">
+            <div class="card-option" data-id="at-fade">
+              <div class="cop-img">
+                <img src="images/animations/fade/simple-fade.png" alt="fade">
+              </div>
+              <span>Simple Fade</span>
+            </div>
+            <div class="card-option" data-id="fadetop">
+              <div class="cop-img">
+                <img src="images/animations/fade/fade-top.png" alt="fade">
+              </div>
+              <span>Fade Top</span>
+            </div>
+            <div class="card-option" data-id="fadebottom">
+              <div class="cop-img">
+                <img src="images/animations/fade/fade-bottom.png" alt="">
+              </div>
+              <span>Fade Bottom</span>
+            </div>
+            <div class="card-option" data-id="fadeleft">
+              <div class="cop-img">
+                <img src="images/animations/fade/fade-left.png" alt="fade">
+              </div>
+              <span>Fade Left</span>
+            </div>
+            <div class="card-option" data-id="faderight">
+              <div class="cop-img">
+                <img src="images/animations/fade/fade-right.png" alt="fade">
+              </div>
+              <span>Fade Right</span>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content tab-slide-animation">
+          <div class="options" id="fade-animation-option">
+            <div class="card-option" data-id="slidex">
+              <div class="cop-img">
+                <img src="images/animations/slide/slidex.png" alt="fade">
+              </div>
+              <span>Slide Z</span>
+            </div>
+            <div class="card-option" data-id="slidetop">
+              <div class="cop-img">
+                <img src="images/animations/slide/slidetop.png" alt="fade">
+              </div>
+              <span>Slide Top</span>
+            </div>
+            <div class="card-option" data-id="slidebottom">
+              <div class="cop-img">
+                <img src="images/animations/slide/slidebottpm.png" alt="">
+              </div>
+              <span>Slide Bottom</span>
+            </div>
+            <div class="card-option" data-id="slideleft">
+              <div class="cop-img">
+                <img src="images/animations/slide/slideleft.png" alt="fade">
+              </div>
+              <span>Slide Left</span>
+            </div>
+            <div class="card-option" data-id="slideright">
+              <div class="cop-img">
+                <img src="images/animations/slide/slideright.png" alt="slide">
+              </div>
+              <span>Slide Right</span>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content tab-special-animation">
+          <div class="options" id="special-animation-option">
+            <div class="card-option" data-id="rolling-secrets">
+              <div class="cop-img">
+                <img src="images/animations/specials/rolling-secrets.png" alt="rolling-secrets">
+              </div>
+              <span>rolling secrets</span>
+            </div>
+            <div class="card-option" data-id="sequential-slide">
+              <div class="cop-img">
+                <img src="images/animations/specials/sequential-slide.png" alt="sequential-slide">
+              </div>
+              <span>Sequential Slide</span>
+            </div>
+            <div class="card-option" data-id="hexa-motion">
+              <div class="cop-img">
+                <img src="images/animations/specials/hexa-motion.png" alt="hexa-motion">
+              </div>
+              <span>Hexa Motion</span>
+            </div>
+            <div class="card-option" data-id="slideleft">
+              <div class="cop-img">
+                <img src="images/animations/slide/slideleft.png" alt="fade">
+              </div>
+              <span>Slide Left</span>
+            </div>
+            <div class="card-option" data-id="quz-slide">
+              <div class="cop-img">
+                <img src="images/animations/specials/quz-slide.png" alt="quz-slide">
+              </div>
+              <span>Quz Slide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section class="sec-embed-code style-size">
+    <div class="container">
+      <div class="inner-flex">
+        <h2>get code</h2>
+        <div class="code-col-wrap">
+          <div class="massge-box html-mb">
+            <div class="massage-copied">
+              <h4>The <b>HTML Code</b> has been successfully copied.</h4>
+            </div>
+            <div class="massage-notcopied">
+              <h4>The <b>HTML Code</b> could not be copied. Please try again.</h4>
+            </div>
+          </div>
+          <div class="massge-box js-mb">
+            <div class="massage-copied">
+              <h4>The <b>Js Code</b> has been successfully copied.</h4>
+            </div>
+            <div class="massage-notcopied">
+              <h4>The<b> Js Code</b> could not be copied. Please try again.</h4>
+            </div>
+          </div>
+          <div class="massge-box css-mb">
+            <div class="massage-copied">
+              <h4>The <b>CSS Code</b> has been successfully copied.</h4>
+            </div>
+            <div class="massage-notcopied">
+              <h4>The <b>CSS Code</b> could not be copied. Please make the necessary changes before attempting to copy the code again.</h4>
+            </div>
+          </div>
+        <div class="js-code">
+          $(".quick-nav .menu-btn").click(function () {
+            $(this).parent().toggleClass('show')
+            $(this).children('.ham').toggleClass('active')
+          });
+        </div>
+        
+        
+          <h3>Access the Entire Code Here:</h3>
+          <p>Click here to copy the  <span class="set-btn" id="copy-html">HTML</span> code and paste it into your HTML file.</p>
+          <p>  Click here to copy the<span class="set-btn" id="copy-js">JavaScript</span>  code and paste it into your JavaScript file.</p>
+          <p class="style-copy">Click here to copy the <span class="set-btn" id="copy-css">CSS</span> code and paste it into your CSS file..</p>
+     
+          <h3 class=" cdn-headign">Copy CDN Links: </h3>
+          <ul class="copy-cdn">
+            <li id="css-cdn">  
+              <div class="css-cdn-code"><link herf="css/menu.css"></div>
+              <code>&lt;link &nbsp;<span>herf="css/menu.css"</span>&gt;</span>
+              </code>
+              <span class="set-btn" id="copy-css-cdn">copy</span>
+              <link rel="stylesheet" href="css/menu.css">
+              </li>
+            <li  id="jquery-cdn"> 
+              <div class="jquery-cdn-code"><script  src="https://code.jquery.com/jquery-3.7.1.min.js"></script></div>
+              <code>&lt;script &nbsp;<span>src="https://code.jquery.com/jquery-3.7.1.min.js"</span>&gt;&lt;/script&gt;</span>
+              </code>
+              <span class="set-btn" id="copy-jquery-cdn">copy</span>
+              </li>
+           
+          </ul>
+          <!-- <input type="text" id="myInput" placeholder="Type something...">
+          <p id="display"></p> -->
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- Style Size  -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

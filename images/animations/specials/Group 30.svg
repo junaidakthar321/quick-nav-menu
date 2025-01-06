@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57.5" height="39" viewBox="0 0 57.5 39">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_37" data-name="Rectangle 37" width="57.5" height="39" transform="translate(-2289.5 -4714)" fill="#ff7474" opacity="0.21"/>
+    </clipPath>
+    <filter id="Path_9">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.62" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_10">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.62" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_12">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-3"/>
+      <feFlood flood-opacity="0.62" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_11">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-opacity="0.62" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_13">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-5"/>
+      <feFlood flood-opacity="0.62" result="color-5"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color-5"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_14">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-6"/>
+      <feFlood flood-opacity="0.62" result="color-6"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-6"/>
+      <feComposite operator="in" in="color-6"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_16">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-7"/>
+      <feFlood flood-opacity="0.62" result="color-7"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-7"/>
+      <feComposite operator="in" in="color-7"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_18">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-8"/>
+      <feFlood flood-opacity="0.62" result="color-8"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-8"/>
+      <feComposite operator="in" in="color-8"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_17">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-9"/>
+      <feFlood flood-opacity="0.62" result="color-9"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-9"/>
+      <feComposite operator="in" in="color-9"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_15">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-10"/>
+      <feFlood flood-opacity="0.62" result="color-10"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-10"/>
+      <feComposite operator="in" in="color-10"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_30" data-name="Group 30" transform="translate(2289.5 4714)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+      <g data-type="innerShadowGroup">
+        <path id="Path_9-2" data-name="Path 9" d="M-15.88.885l10.271.5,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2288.111, -4719.572)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_9)">
+          <path id="Path_9-3" data-name="Path 9" d="M-15.88.885l10.271.5,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 1.39, -5.57)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_10-2" data-name="Path 10" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2272.215, -4729.572)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_10)">
+          <path id="Path_10-3" data-name="Path 10" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 17.28, -15.57)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_12-2" data-name="Path 12" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2256.367, -4719.535)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_12)">
+          <path id="Path_12-3" data-name="Path 12" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 33.13, -5.54)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_11-2" data-name="Path 11" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2272.215, -4709.572)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_11)">
+          <path id="Path_11-3" data-name="Path 11" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 17.28, 4.43)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_13-2" data-name="Path 13" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2288.111, -4699.235)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_13)">
+          <path id="Path_13-3" data-name="Path 13" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 1.39, 14.77)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_14-2" data-name="Path 14" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2256.367, -4699.235)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_14)">
+          <path id="Path_14-3" data-name="Path 14" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 33.13, 14.77)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_16-2" data-name="Path 16" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2239.972, -4709.572)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_16)">
+          <path id="Path_16-3" data-name="Path 16" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 49.53, 4.43)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_18-2" data-name="Path 18" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2239.972, -4689.235)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_18)">
+          <path id="Path_18-3" data-name="Path 18" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 49.53, 24.77)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_17-2" data-name="Path 17" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2239.972, -4728.928)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_17)">
+          <path id="Path_17-3" data-name="Path 17" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 49.53, -14.93)" fill="#fff"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <path id="Path_15-2" data-name="Path 15" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.438, -0.899, 0.899, 0.438, -2272.215, -4689.235)" fill="#65ff5a"/>
+        <g transform="matrix(1, 0, 0, 1, -2289.5, -4714)" filter="url(#Path_15)">
+          <path id="Path_15-3" data-name="Path 15" d="M-16.731.8l11.122.585,4.021,8.244-5.686,8.9-10.908-.808L-22.2,9.479Z" transform="matrix(0.44, -0.9, 0.9, 0.44, 17.28, 24.77)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
