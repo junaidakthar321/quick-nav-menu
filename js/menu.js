@@ -432,12 +432,13 @@ $(document).ready(function () {
   }
   $("#submit-value").click(function () {
     menuText();
-
     colorStyle();
     setIocnType();
     $("#copy-css").addClass("copy-now");
     $("#submit-value").removeClass("not-dis");
-    // $('#submit-value').off('click', handleClick);
+    if ($(".quick-nav").hasClass("show")) {
+      $(".quick-nav .ham").addClass("active");
+    }
   });
 
   $("#copy-html").click(function () {
